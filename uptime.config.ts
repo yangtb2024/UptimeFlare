@@ -8,7 +8,6 @@ const pageConfig = {
 }
 
 const workerConfig = {
-  // Write KV at most every 3 minutes unless the status changed
   kvWriteCooldownMinutes: 1,
   // Enable HTTP Basic auth for status page & API by uncommenting the line below, format `<USERNAME>:<PASSWORD>`
   // passwordProtection: 'username:password',
@@ -21,19 +20,17 @@ const workerConfig = {
       method: 'POST',
       target: 'http://blog.yangtb2024.me/'
     },
+    {
+      id: 'API',
+      name: 'API',
+      method: 'POST',
+      target: 'http://api.yangtb2024.me/'
+    },
   ],
   notification: {
-    // [Optional] apprise API server URL
-    // if not specified, no notification will be sent
     appriseApiServer: "https://apprise.example.com/notify",
-    // [Optional] recipient URL for apprise, refer to https://github.com/caronc/apprise
-    // if not specified, no notification will be sent
     recipientUrl: "tgram://bottoken/ChatID",
-    // [Optional] timezone used in notification messages, default to "Etc/GMT"
     timeZone: "Asia/Shanghai",
-    // [Optional] grace period in minutes before sending a notification
-    // notification will be sent only if the monitor is down for N continuous checks after the initial failure
-    // if not specified, notification will be sent immediately
     gracePeriod: 5,
   },
   callbacks: {
