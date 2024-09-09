@@ -19,7 +19,7 @@ const workerConfig = {
       id: 'Blog',
       name: 'Blog',
       method: 'POST',
-      target: 'http://blog.yangtb2024.me/',
+      target: 'http://blog.yangtb2024.me/'
     },
   ],
   notification: {
