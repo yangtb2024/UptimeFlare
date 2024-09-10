@@ -35,7 +35,7 @@ const workerConfig = {
   ],
   notification: {
     appriseApiServer: "https://apprise.example.com/notify",
-    recipientUrl: "tgram://7353422993:AAFcVeqjM4SoA71lSuyk4RNs8mBHrHxTMis/7148175367",
+    recipientUrl: "tgram://7148175367/7353422993:AAFcVeqjM4SoA71lSuyk4RNs8mBHrHxTMis",
     timeZone: "Asia/Shanghai",
     gracePeriod: 5,
   },
