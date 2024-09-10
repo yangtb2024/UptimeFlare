@@ -8,7 +8,7 @@ const pageConfig = {
 }
 
 const workerConfig = {
-  kvWriteCooldownMinutes: 1,
+  kvWriteCooldownMinutes: 5,
   // Enable HTTP Basic auth for status page & API by uncommenting the line below, format `<USERNAME>:<PASSWORD>`
   // passwordProtection: 'username:password',
   // Define all your monitors here
@@ -25,6 +25,12 @@ const workerConfig = {
       name: 'API',
       method: 'POST',
       target: 'http://api.yangtb2024.me/'
+    },
+    {
+      id: 'Uptime - H',
+      name: 'Uptime - H',
+      method: 'POST',
+      target: 'https://yangtb2024-work.hf.space/'
     },
   ],
   notification: {
