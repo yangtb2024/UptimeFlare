@@ -39,7 +39,7 @@ const workerConfig = {
       target: 'https://codeforces.com/'
     },
     {
-      id: 'Atcoder,
+      id: 'Atcoder',
       name: 'Atcoder',
       method: 'POST',
       target: 'https://atcoder.jp/'
