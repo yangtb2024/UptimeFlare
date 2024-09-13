@@ -32,18 +32,6 @@ const workerConfig = {
       method: 'POST',
       target: 'https://yangtb2024-work.hf.space/'
     },
-    {
-      id: 'Codeforces',
-      name: 'Codeforces',
-      method: 'POST',
-      target: 'https://codeforces.com/'
-    },
-    {
-      id: 'Atcoder',
-      name: 'Atcoder',
-      method: 'POST',
-      target: 'https://atcoder.jp/'
-    },
   ],
   notification: {
     appriseApiServer: "https://apprise.example.com/notify",
