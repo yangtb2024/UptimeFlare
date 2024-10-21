@@ -31,6 +31,12 @@ const workerConfig = {
       name: 'HG',
       method: 'POST',
       target: 'https://yangtb2024-workwork.hf.space/'
+    },  
+    {
+      id: 'SB',
+      name: 'SB',
+      method: 'POST',
+      target: 'http://yuantiji.ac/zh/'
     },
   ],
   notification: {
