@@ -25,13 +25,7 @@ const workerConfig = {
       name: 'API',
       method: 'POST',
       target: 'http://api.yangtb2024.me/'
-    },    
-    {
-      id: 'SB',
-      name: 'SB',
-      method: 'POST',
-      target: 'http://yuantiji.ac/zh/'
-    },
+    },  
   ],
   notification: {
     appriseApiServer: "https://apprise.example.com/notify",
