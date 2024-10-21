@@ -26,6 +26,12 @@ const workerConfig = {
       method: 'POST',
       target: 'http://api.yangtb2024.me/'
     },  
+    {
+      id: 'HG',
+      name: 'HG',
+      method: 'POST',
+      target: 'https://yangtb2024-workwork.hf.space/'
+    },
   ],
   notification: {
     appriseApiServer: "https://apprise.example.com/notify",
