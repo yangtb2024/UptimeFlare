@@ -27,8 +27,8 @@ const workerConfig = {
       target: 'http://api.yangtb2024.me/'
     },    
     {
-      id: '原题机',
-      name: 'API',
+      id: 'SB',
+      name: 'SB',
       method: 'POST',
       target: 'http://yuantiji.ac/zh/'
     },
