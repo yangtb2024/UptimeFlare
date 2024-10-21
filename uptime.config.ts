@@ -25,6 +25,12 @@ const workerConfig = {
       name: 'API',
       method: 'POST',
       target: 'http://api.yangtb2024.me/'
+    },    
+    {
+      id: '原题机',
+      name: 'API',
+      method: 'POST',
+      target: 'http://yuantiji.ac/zh/'
     },
   ],
   notification: {
