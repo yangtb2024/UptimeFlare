@@ -31,6 +31,12 @@ const workerConfig = {
       name: 'BSOJ',
       method: 'GET',
       target: 'https://oj.cqbs.me/'
+    },  
+    {
+      id: 'CF',
+      name: 'CF',
+      method: 'GET',
+      target: 'https://codeforces.com/'
     }, 
     {
       id: 'HG',
