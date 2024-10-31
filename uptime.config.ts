@@ -33,10 +33,10 @@ const workerConfig = {
       target: 'https://oj.cqbs.me/'
     },  
     {
-      id: 'CF',
-      name: 'CF',
+      id: 'Luogu',
+      name: 'Luogu',
       method: 'GET',
-      target: 'https://codeforces.com/'
+      target: 'http://luogu.com.cn/'
     }, 
     {
       id: 'HG',
