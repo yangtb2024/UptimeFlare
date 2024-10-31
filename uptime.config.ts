@@ -39,6 +39,12 @@ const workerConfig = {
       target: 'http://luogu.com.cn/'
     }, 
     {
+      id: '原题机',
+      name: '原题机',
+      method: 'GET',
+      target: 'http://yuantiji.ac/zh/'
+    }, 
+    {
       id: 'HG',
       name: 'HG',
       method: 'POST',
