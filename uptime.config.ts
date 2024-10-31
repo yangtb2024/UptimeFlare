@@ -27,6 +27,12 @@ const workerConfig = {
       target: 'http://api.yangtb2024.me/'
     },  
     {
+      id: 'BSOJ',
+      name: 'BSOJ',
+      method: 'GET',
+      target: 'https://oj.cqbs.me/'
+    }, 
+    {
       id: 'HG',
       name: 'HG',
       method: 'POST',
