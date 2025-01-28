@@ -17,20 +17,26 @@ const workerConfig = {
     {
       id: 'Blog',
       name: 'Blog',
-      method: 'POST',
+      method: 'GET',
       target: 'http://blog.yangtb2024.me/'
     },
     {
       id: 'API',
       name: 'API',
-      method: 'POST',
+      method: 'GET',
       target: 'http://api.yangtb2024.me/'
     },  
     {
       id: 'NEW_API',
       name: 'NEW_API',
-      method: 'POST',
+      method: 'GET',
       target: 'http://new.yangtb2024.me/'
+    },  
+    {
+      id: 'new',
+      name: 'NEW_API',
+      method: 'GET',
+      target: 'https://new-api-latest-kite.onrender.com/'
     },  
     {
       id: 'BSOJ',
