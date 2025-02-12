@@ -37,6 +37,12 @@ const workerConfig = {
       name: 'NEW_API',
       method: 'GET',
       target: 'https://new-api-latest-kite.onrender.com/'
+    },   
+    {
+      id: 'my_api',
+      name: 'my_api',
+      method: 'GET',
+      target: 'https://my.yangtb2024.me/'
     },  
     {
       id: 'BSOJ',
