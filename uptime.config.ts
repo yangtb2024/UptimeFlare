@@ -21,12 +21,6 @@ const workerConfig = {
       target: 'http://blog.yangtb2024.me/'
     },
     {
-      id: 'API',
-      name: 'API',
-      method: 'GET',
-      target: 'http://api.yangtb2024.me/'
-    },  
-    {
       id: 'NEW_API',
       name: 'NEW_API',
       method: 'GET',
@@ -43,19 +37,7 @@ const workerConfig = {
       name: 'my_api',
       method: 'GET',
       target: 'https://my.yangtb2024.me/'
-    },  
-    {
-      id: 'BSOJ',
-      name: 'BSOJ',
-      method: 'GET',
-      target: 'https://oj.cqbs.me/'
-    },  
-    {
-      id: 'Luogu',
-      name: 'Luogu',
-      method: 'GET',
-      target: 'http://luogu.com.cn/'
-    }, 
+    },    
     {
       id: '原题机',
       name: '原题机',
