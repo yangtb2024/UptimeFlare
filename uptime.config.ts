@@ -8,7 +8,7 @@ const pageConfig = {
 }
 
 const workerConfig = {
-  kvWriteCooldownMinutes: 1,
+  kvWriteCooldownMinutes: 3,
   // Enable HTTP Basic auth for status page & API by uncommenting the line below, format `<USERNAME>:<PASSWORD>`
   // passwordProtection: 'username:password',
   // Define all your monitors here
