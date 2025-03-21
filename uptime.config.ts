@@ -21,17 +21,11 @@ const workerConfig = {
       target: 'http://blog.yangtb2024.me/'
     },
     {
-      id: 'NEW_API',
+      id: 'API',
       name: 'NEW_API',
       method: 'GET',
       target: 'http://new.yangtb2024.me/'
     },  
-    {
-      id: 'new',
-      name: 'NEW_API',
-      method: 'GET',
-      target: 'https://new-api-latest-kite.onrender.com/'
-    },   
     {
       id: 'my_api',
       name: 'my_api',
