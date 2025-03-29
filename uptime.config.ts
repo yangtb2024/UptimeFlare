@@ -21,14 +21,14 @@ const workerConfig = {
       target: 'http://blog.yangtb2024.me/'
     },
     {
-      id: 'API',
-      name: 'NEW_API',
+      id: 'Old',
+      name: 'Old-API',
       method: 'GET',
       target: 'http://new.yangtb2024.me/'
     },  
     {
-      id: 'my_api',
-      name: 'my_api',
+      id: 'API',
+      name: 'API',
       method: 'GET',
       target: 'https://my.yangtb2024.me/'
     },    
